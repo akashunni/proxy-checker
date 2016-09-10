@@ -44,7 +44,7 @@ for i in range(0,size):
     print "Enter Password for",hosts[i],": ",
     passwd[i] = raw_input();
 
-print "==== Enter the time to refresh ===="
+print "==== Enter the time to refresh ====>>"
 sleep = input();
 os.system('cls')
 print "Initializing..."
@@ -54,7 +54,7 @@ cnt = array.array('i', (1 for i in range(0, n)))
 res_time = array.array('f', (0 for i in range(0, n)))
 
 while True:
-    print "=== Proxy ===  ===== Response Time =====>",
+    print "=== Proxy ===  ===== Response Time =====",
     for i in range(0, n):
         check_proxies(hosts[i], ports[i], user[i], passwd[i])
     print "\nRefreshing in",sleep,"sec."
