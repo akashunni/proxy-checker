@@ -25,7 +25,7 @@ def check_proxies(proxy, port, user, passwd):
     return
 
 ################################################################################################################
-print "Enter the no. of proxies : "
+print "Enter the no. of proxies : ",
 size = input();
 hosts = ["" for x in range(size)]
 ports = ["" for x in range(size)]
